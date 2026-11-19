@@ -1,0 +1,2 @@
+# LLMs under test: name, provider (online/local), context window, price per 1M tokens if online
+models: []

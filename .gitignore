@@ -218,3 +218,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ---- Course project rules (group_project_guidelines) ----
+# Data: keep the folders, never the files (README explains how to obtain them)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+# data/eval/ (questions + reference answers) IS versioned: it is small and part of the experiment
+
+# Model checkpoints, weights, vector indexes
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pkl
+*.joblib
+*.h5
+*.gguf
+*.faiss
+chroma/
+
+# Experiment tracking
+wandb/
+mlruns/
+mlartifacts/
+
+# Secrets
+.env
