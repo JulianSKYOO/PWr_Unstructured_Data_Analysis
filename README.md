@@ -5,3 +5,4 @@ We build a question-answering assistant for the EU AI Act (Regulation (EU) 2024/
 We compare fixed-size token chunking with Article-level chunking, test cross-lingual retrieval, and check how far RAG reduces hallucinations.
 Each question goes to several online and local LLMs, both with and without retrieval, and we record answer scores and token usage.
 Team: Karol Cieślik, Maria (Marysia) Nowacka, Michał Wrona, Julian Sungkyun Yoo. The detailed plan is in [docs/project_plan.md](docs/project_plan.md).
+.
